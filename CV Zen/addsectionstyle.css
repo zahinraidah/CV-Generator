@@ -1,0 +1,53 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 2px;
+  grid-auto-rows: minmax(50px, auto);
+}
+.Addsection {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #A3DEFB;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.AddTextsection {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #A3DEFB;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.AddPortfolio {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #A3DEFB;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.AddEducation {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: #A3DEFB;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.AddExperience {
+  grid-column: 2;
+  grid-row: 4;
+  background-color: #A3DEFB;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.AddGeneralSkills {
+  grid-column: 2;
+  grid-row: 5;
+  background-color: #A3DEFB;
+  padding: 5px;
+  margin-left: 15px;
+}

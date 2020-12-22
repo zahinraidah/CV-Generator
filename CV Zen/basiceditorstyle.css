@@ -1,0 +1,64 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.PersonalInformation {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.Education { 
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+.WorkExperience {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+.Skills {
+  grid-column: 1;
+  grid-row: 4;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+.SoftwareSkills {
+  grid-column: 1;
+  grid-row: 5;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+.LanguageSkills{
+  grid-column: 1;
+  grid-row: 6;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+.References{
+  grid-column: 1;
+  grid-row: 7;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+}
+.Addsection{
+  grid-column: 1;
+  grid-row: 8;
+  background-color: #A3DEFB;
+  padding: 10px;
+  margin-left: 15px;
+
+}
